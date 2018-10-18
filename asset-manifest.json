@@ -1,7 +1,7 @@
 {
   "main.css": "/heroflix/static/css/main.ff85b7c6.chunk.css",
-  "main.js": "/heroflix/static/js/main.8b55d29b.chunk.js",
-  "main.js.map": "/heroflix/static/js/main.8b55d29b.chunk.js.map",
+  "main.js": "/heroflix/static/js/main.b29fc1d4.chunk.js",
+  "main.js.map": "/heroflix/static/js/main.b29fc1d4.chunk.js.map",
   "static/css/1.bc3bd7e7.chunk.css": "/heroflix/static/css/1.bc3bd7e7.chunk.css",
   "static/js/1.a6f4bded.chunk.js": "/heroflix/static/js/1.a6f4bded.chunk.js",
   "static/js/1.a6f4bded.chunk.js.map": "/heroflix/static/js/1.a6f4bded.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/css/main.ff85b7c6.chunk.css.map": "/heroflix/static/css/main.ff85b7c6.chunk.css.map",
   "static/css/1.bc3bd7e7.chunk.css.map": "/heroflix/static/css/1.bc3bd7e7.chunk.css.map",
   "index.html": "/heroflix/index.html",
-  "precache-manifest.60548f3201bca46e49e4e4504b73d55a.js": "/heroflix/precache-manifest.60548f3201bca46e49e4e4504b73d55a.js",
+  "precache-manifest.4b2e0eb3a61f9bbe2cc3e4303997bdce.js": "/heroflix/precache-manifest.4b2e0eb3a61f9bbe2cc3e4303997bdce.js",
   "service-worker.js": "/heroflix/service-worker.js"
 }
