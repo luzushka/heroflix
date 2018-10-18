@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/heroflix/static/js/runtime~main.60c16353.js.map",
   "static/media/index.css": "/heroflix/static/media/roboto-latin-900italic.bc833e72.woff",
   "static/media/App.css": "/heroflix/static/media/newpopcorn.d8082393.png",
-  "static/css/main.ff85b7c6.chunk.css.map": "/heroflix/static/css/main.ff85b7c6.chunk.css.map",
   "static/css/1.bc3bd7e7.chunk.css.map": "/heroflix/static/css/1.bc3bd7e7.chunk.css.map",
+  "static/css/main.ff85b7c6.chunk.css.map": "/heroflix/static/css/main.ff85b7c6.chunk.css.map",
   "index.html": "/heroflix/index.html",
-  "precache-manifest.192df590b10df929f4237359969314bc.js": "/heroflix/precache-manifest.192df590b10df929f4237359969314bc.js",
+  "precache-manifest.aa8e444811cde422871703bb4675ee7b.js": "/heroflix/precache-manifest.aa8e444811cde422871703bb4675ee7b.js",
   "service-worker.js": "/heroflix/service-worker.js"
 }
