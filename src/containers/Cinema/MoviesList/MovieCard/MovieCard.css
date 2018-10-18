@@ -1,0 +1,84 @@
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes half-fadein {
+    from {
+        opacity:0.7;
+    }
+    to {
+        opacity:1;
+    }
+}
+.movie-card{
+    overflow: visible;
+    display: inline-block;
+    border-radius: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 278px;
+    width: 185px;
+    transition: 1s ease-in-out;
+    overflow: visible;
+    animation: fadein 1s;
+
+
+    box-shadow: 5px 6px 3px 0px rgba(0, 0, 0, 0.8),
+                0px 1px 1px 0px rgba(0, 0, 0, 0.84),
+                0px 2px 1px -1px rgba(0, 0, 0, 0.82);
+}
+
+
+.movie-card-info{
+    height:278px;
+    width:185px;
+    visibility: hidden;
+    background: transparent;
+    color:white;
+}
+
+.movie-card-info-wrapper:hover .movie-card-info{
+    visibility: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(102, 100, 100, 0.65));
+    animation: fadein 0.15s;
+}
+
+.movie-title{
+    color:rgb(5, 196, 107);
+    display: inline;
+}
+
+.movie-year{
+    display: inline;
+}
+
+.movie-header{
+    min-height:3rem;
+}
+
+.movie-toolbar{
+    float: right;
+    display: flex;
+    margin-right:-13px;
+}
+
+.edit-btn,
+.delete-btn{
+    border: 3px solid transparent;
+    border-radius: 100%;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.edit-btn:hover,
+.delete-btn:hover{
+    background-color: rgba(12, 161, 62, 0.404);
+    animation: half-fadein 1s;
+}

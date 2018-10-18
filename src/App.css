@@ -1,0 +1,10 @@
+body{
+    background-image: url('./images/newpopcorn.png');
+    background-size: contain;
+    background-attachment: fixed;
+    /* font-family: 'Roboto', sans-serif !important; */
+}
+
+*{
+    font-family: 'Roboto', sans-serif !important;
+}

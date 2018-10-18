@@ -1,0 +1,75 @@
+@keyframes border-animation{
+    from{
+        border-color: rgba(0,0,0,0);
+
+    }
+
+    to{
+        border-color: rgba(5, 196, 107, 1);
+    }
+}
+
+#add-form{
+    max-width:300px;
+    /* font-family: 'Roboto'; */
+}
+
+.form-text-field{
+    width:100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    /* font-family: 'Roboto'; */
+}
+
+.form-text-field:focus{
+    animation: border-animation 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.form-text-field:hover::placeholder{
+    color:rgba(5, 196, 107, 1);
+    font-weight: bold;
+}
+
+.dialog-actions{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.dialog-btn{
+    background-color:seagreen;
+    color: white;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    border: transparent;
+    border-radius: 4px;
+    margin: 10px 10px;
+
+}
+
+.dialog-btn:hover{
+    background-color:rgb(39, 114, 71);
+    cursor: pointer;
+}
+
+.dialog-btn-cancel{
+    background-color: rgb(94, 92, 92)
+}
+
+.dialog-btn-cancel:hover{
+    background-color: rgb(75, 74, 74)
+}
+
+.dialog-btn:disabled{
+    background-color: rgba(0,0,0,0.3);
+    cursor: unset;
+}
+
+.dialog-err{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+}
