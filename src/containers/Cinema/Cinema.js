@@ -1,19 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Footer from './Footer/Footer';
-import MoviesList from './MoviesList/MoviesList';
+import MoviesBox from './MoviesBox/MoviesBox';
 import Navbar from './Navbar/Navbar';
 
-class Cinema extends Component{
+const cinema = props =>{
 
-    render(){
         return (
             <div id="cinema">
                 <Navbar/>
-                    <MoviesList/>
+                    <MoviesBox/>
                 <Footer/>
             </div>
         );
-    }
 }
 
-export default Cinema;
+
+export default cinema;

@@ -8,6 +8,7 @@ import { ADD_MOVIE } from '../../../store/types';
 import format from 'string-format';
 import './MoviesList.css';
 
+
 class MoviesBox extends Component{
     
     state = {
@@ -49,7 +50,7 @@ class MoviesBox extends Component{
             
 
         }
-        else if ((movies.length>15) && (!this.state.isLoaded)){ //more than 15 movies for prettier loading
+        else if ((movies.length>10) && (!this.state.isLoaded)){ //more than 15 movies for prettier loading
             this.setState({isLoaded: true},
                 ()=>(this.setState({displayed:moviesArr})));
         }
@@ -71,6 +72,9 @@ class MoviesBox extends Component{
 
     }
 
+    /** Fetches a list of the most popular movies from tMDB and for each movie fetches information.
+     * The first request only has partial data, so I also made another call for each movie to get all the data.
+      */
     getMovies(){
         const headers = {
             'Accept': 'application/json',
@@ -79,7 +83,7 @@ class MoviesBox extends Component{
         fetch(format(popularMovies, APIKey),{headers: headers})
         .then(response=>response.json())
             .then(data=>{
-                data.results.forEach(result=>{
+                data.results.slice(0, 15).forEach(result=>{ /**Sliced the array to reduce 429 status code errors */
                         //
                     fetch(format(infoAboutAMovie, result.id, APIKey), {headers: headers})
                     .then(newDataResponse=> {
@@ -111,7 +115,7 @@ class MoviesBox extends Component{
                         })
                     })
                     .catch(err=>{
-                        this.setState({error: {status: err, msg:err}}, ()=>{
+                        this.setState({error: {status: err, msg:err}}, ()=>{ // Error message and refresh:
                             const displayed = (
                                 <div id="load-error-div">
                                     Oops! An error occured.
