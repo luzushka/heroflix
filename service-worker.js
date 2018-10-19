@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/heroflix/precache-manifest.2a0b2773d43be6f8eb086c95de6a0828.js"
+  "/heroflix/precache-manifest.e6c77e22e32ee080bc39f047d7aed646.js"
 );
 
 workbox.clientsClaim();

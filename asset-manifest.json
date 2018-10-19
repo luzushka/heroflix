@@ -1,7 +1,7 @@
 {
-  "main.css": "/heroflix/static/css/main.8d328139.chunk.css",
-  "main.js": "/heroflix/static/js/main.c4423588.chunk.js",
-  "main.js.map": "/heroflix/static/js/main.c4423588.chunk.js.map",
+  "main.css": "/heroflix/static/css/main.0748f2dc.chunk.css",
+  "main.js": "/heroflix/static/js/main.7449c223.chunk.js",
+  "main.js.map": "/heroflix/static/js/main.7449c223.chunk.js.map",
   "static/css/1.bc3bd7e7.chunk.css": "/heroflix/static/css/1.bc3bd7e7.chunk.css",
   "static/js/1.a6f4bded.chunk.js": "/heroflix/static/js/1.a6f4bded.chunk.js",
   "static/js/1.a6f4bded.chunk.js.map": "/heroflix/static/js/1.a6f4bded.chunk.js.map",
@@ -9,9 +9,9 @@
   "runtime~main.js.map": "/heroflix/static/js/runtime~main.60c16353.js.map",
   "static/media/index.css": "/heroflix/static/media/roboto-latin-900italic.bc833e72.woff",
   "static/media/App.css": "/heroflix/static/media/newpopcorn.d8082393.png",
-  "static/css/main.8d328139.chunk.css.map": "/heroflix/static/css/main.8d328139.chunk.css.map",
+  "static/css/main.0748f2dc.chunk.css.map": "/heroflix/static/css/main.0748f2dc.chunk.css.map",
   "static/css/1.bc3bd7e7.chunk.css.map": "/heroflix/static/css/1.bc3bd7e7.chunk.css.map",
   "index.html": "/heroflix/index.html",
-  "precache-manifest.2a0b2773d43be6f8eb086c95de6a0828.js": "/heroflix/precache-manifest.2a0b2773d43be6f8eb086c95de6a0828.js",
+  "precache-manifest.e6c77e22e32ee080bc39f047d7aed646.js": "/heroflix/precache-manifest.e6c77e22e32ee080bc39f047d7aed646.js",
   "service-worker.js": "/heroflix/service-worker.js"
 }
