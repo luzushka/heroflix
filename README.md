@@ -8,7 +8,8 @@ Deployed version: https://luzushka.github.io/heroflix/ .
 ## How to run the development server:
 
 ```
-git clone https://github.com/luzushka/heroflix/edit/master
+git clone https://github.com/luzushka/heroflix/
+cd heroflix
 npm install
 npm start
 
